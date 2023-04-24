@@ -1,0 +1,93 @@
+*{box-sizing: border-box;
+margin: 0px;
+padding: 0px;}
+.banner{
+    background-color: blueviolet;
+    border: 1px ;
+    padding: 20px 20px 20px 10px ;
+    text-align: center;
+    width: 98%;
+    margin: 0px auto;
+}
+.name_banner{font-size: 80px;
+color: aliceblue;
+font-weight: bold;
+width: 98%;}
+.h1{
+    color: black;
+    background-color: chartreuse;
+    border: 1px orangered;
+    width: 750px;
+    height: 50px;
+    margin: 0px auto;
+    padding: 20px 10px 20px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.root li{
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+.root>li>a{
+    text-decoration: none;
+    color: rgba(196, 255, 20, 0.915);
+    padding: 0px 40px 0px 40px;
+    display: block; line-height: 50px;
+}
+.menu_web{
+    background-color: darksalmon;
+    width: 98%;
+    height: 50px;
+    margin: 0px  auto;
+}
+.root>li>a:hover{
+    background-color: magenta;
+    color: yellow;
+    transform: ease-in 0,35s;
+}
+.submenu{
+    width: 250px;
+    background-color: rgb(150, 0, 250);
+    display: none;
+    min-height: 80px;
+    position: absolute;
+}
+.submenu li{list-style: none;}
+.submenu li a{
+    text-emphasis: none;
+    text-decoration: none;
+    color: greenyellow;
+    display: block;
+    border: 1ps solid seashell;
+    line-height: 40px;
+    text-indent: 15px;
+}
+.root>li:hover .submenu{
+    display: block;
+    background-color: ghostwhite;
+    color: orange;
+}
+.submenu li a:hover{
+    background-color: ivory;
+    color: burlywood;
+
+}
+.noidung{
+    border: 1px solid salmon;
+    width: 98%;
+    text-align:center;
+    margin: 0px auto;
+}
+.d1,td{border: 1px solid salmon;
+
+}
+.sp1 {
+    width: 35px ; height:35 ;
+}
+.s{
+    width: 300px; height: 250px;
+
+}
